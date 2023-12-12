@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.course{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(72, 72, 72);
+}
+.nav-item a{
+    font-size: 18px;
+    color: rgb(72, 72, 72);
+}
+.carousel-item{
+    height: fit-content;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(41, 39, 39, 0.7);
+    z-index: 1;
+}
+.services{
+   margin-top: 100px;
+}
+
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img-study{
+    height: 388px;
+    width: 500px;
+}
+.btn{
+    color: white;
+    font-weight: 600;
+}
+.fa-solid{
+    color: gold;
+}
+/* Made Changes */
+.companies img{
+        max-width: 100%; 
+        height: auto;
+        width: 80px;  
+}
+
+.icon{
+    font-size: 30px;
+}
+@media only screen and (max-width: 576px) {
+    .meet {
+      text-align: center;
+    }
+    /* Made Changes */
+    .card-img {
+        width: 100%;
+        height: auto;
+    }
+    .card-imgg{
+        width:;
+    }
+    .btn{
+        display: none;
+    }
+
+
+
+
+}
